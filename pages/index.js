@@ -14,7 +14,7 @@ export default function Home() {
             <p>Hallöchen und herzlich Willkommen zu der Schnitzeljagd von den Ninja-Eichhörnchen der J-TK-2!</p>
             <p>Drück es fest und das Spiel kann beginnen!</p>
             <Link href={'./fragen/start'}>
-              <Image src='/bilder/Eichhörnchen.png' width={240} height={240} alt='Ninja Eichhörnchen'></Image>
+              <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
             </Link>
           </div>
           <div className='col-1'></div>

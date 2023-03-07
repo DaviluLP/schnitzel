@@ -12,7 +12,7 @@ export default function start() {
             <p>Stellt euch vor, ihr wollt nach Deutschland reisen, was sucht ihr dort zum übernachten?</p>
             <p> Dies ist wohl euer erstes Ziel.</p>
             <Link href={'./Quest_2'}>
-              <Image src='/bilder/Eichhörnchen.png' width={240} height={240} alt='Ninja Eichhörnchen'></Image>
+              <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
             </Link>
           </div>
           <div className="col-1"></div>
