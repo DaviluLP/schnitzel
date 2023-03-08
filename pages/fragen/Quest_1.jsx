@@ -64,7 +64,7 @@ export default function Quest_1() {
               >Bestätigen</Button>
             </p>
             {q2 !== true ? (
-              <Image src='/bilder/eichhoernchenbw.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
+              <Image src='/bilder/Eichhoernchenbw.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
             ) : (
             <Link href={'./Quest_2'} onClick={cook}>
               <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
