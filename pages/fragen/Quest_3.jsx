@@ -21,7 +21,7 @@ export default function Quest_3() {
                             <Button
                                 onClick={() => setOpen(!open)}
                                 aria-controls="tipp3"
-                                aria-espanded={open}
+                                aria-expanded={open}
                             >Tipp</Button>
                         </p>
                         <Collapse in={open}>

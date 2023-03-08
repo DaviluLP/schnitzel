@@ -21,7 +21,7 @@ export default function Quest_8() {
                             <Button
                                 onClick={() => setOpen(!open)}
                                 aria-controls="tipp8"
-                                aria-espanded={open}
+                                aria-expanded={open}
                             >Tipp</Button>
                         </p>
                         <Collapse in={open} className='mb-3'>
