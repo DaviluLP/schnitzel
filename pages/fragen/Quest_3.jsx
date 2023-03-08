@@ -16,9 +16,6 @@ export default function Quest_3() {
                         <h2>Aufgabe 3</h2>
                         <p>Du bist nun in der Arneken angekommen, findest aber kein passendes Geschäft für dich und beschließt den Lageplan zu studieren.</p>
                         <p>Dich hat die Anzahl der <b>Fenster</b> fasziniert und beschließt diese Route bis zum <b>orangenen Knotenpunkt</b> zu nehmen.</p>
-                        <Link href={'./Quest_4'}>
-                            <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
-                        </Link>
                         <p className='mt-3'>
                             <Button
                                 onClick={() => setOpen(!open)}
@@ -31,6 +28,9 @@ export default function Quest_3() {
                                 <div className="card card-body">Die Zahl war im übrigen 30. Schaut mal bei den Geschäften nach.</div>
                             </div>
                         </Collapse>
+                        <Link href={'./Quest_4'}>
+                            <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
+                        </Link>
                     </div>
                     <div className="col-1"></div>
                 </div>

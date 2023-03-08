@@ -9,10 +9,8 @@ export default function Quest_7() {
                     <div className="col-1"></div>
                     <div className="col">
                         <h2>Aufgabe 7</h2>
-                        <p>Nachdem ihr im Hotel "Deutsches Haus" die Nacht verbracht habt schaut ihr euch um.</p>
-
-                        <p>Seht ihr etwas in der Gegend, was genau der Anzahl Doppelfenster entspricht von eurem Hotel?</p>
-                        <p>Ihr habt was, dann geht dort durch den Haupteingang.</p>
+                        <p>Beim Brunnen denkt ihr an die Zahl und schaut euch um.</p>
+                        <p>Wenn ihr diese Zahl wiedergefunden habt, dann geht rechts die Straße lang, bis zur nächsten Straße.</p>
                         <Link href={'./Quest_8'}>
                             <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
                         </Link>

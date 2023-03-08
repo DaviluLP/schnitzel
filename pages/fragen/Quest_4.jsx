@@ -9,10 +9,9 @@ export default function Quest_4() {
                     <div className="col-1"></div>
                     <div className="col">
                         <h2>Aufgabe 4</h2>
-                        <p>Nachdem ihr im Hotel "Deutsches Haus" die Nacht verbracht habt schaut ihr euch um.</p>
-
-                        <p>Seht ihr etwas in der Gegend, was genau der Anzahl Doppelfenster entspricht von eurem Hotel?</p>
-                        <p>Ihr habt was, dann geht dort durch den Haupteingang.</p>
+                        <p>Ihr seid nun die Straße bis zur Infotafel gelaufen, seid aber immer noch nicht fündig geworden.</p>
+                        <p>Ihr beschließt Fremde nach dem Weg zu diesem Geschäft zu fragen.</p>
+                        <p>Wie viele Heilige seht ihr bei der stelle? Der letzte Buchstabe der Zahl gibt euch die Richtung an, die ihr gehen müsst.</p>
                         <Link href={'./Quest_5'}>
                             <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
                         </Link>

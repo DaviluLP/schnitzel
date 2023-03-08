@@ -9,10 +9,9 @@ export default function Quest_6() {
                     <div className="col-1"></div>
                     <div className="col">
                         <h2>Aufgabe 6</h2>
-                        <p>Nachdem ihr im Hotel "Deutsches Haus" die Nacht verbracht habt schaut ihr euch um.</p>
-
-                        <p>Seht ihr etwas in der Gegend, was genau der Anzahl Doppelfenster entspricht von eurem Hotel?</p>
-                        <p>Ihr habt was, dann geht dort durch den Haupteingang.</p>
+                        <p>Da seid ihr nun, am umgedrehtem Zuckerhut.</p>
+                        <p>Ihr fragt euch wie spät es mitlerweile ist und bemerkt eine Rose.</p>
+                        <p>Ihr merkt euch die Zahl über der Rose und denkt, eine Rose braucht im Sommer viel Wasser um hübsch aus zu sehen.</p>
                         <Link href={'./Quest_7'}>
                             <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
                         </Link>
