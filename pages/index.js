@@ -16,7 +16,11 @@ export default function Home() {
           <div className='col'>
             <h1>Projekt-Schnitzeljagd</h1>
             <p>Hallöchen und herzlich Willkommen zu der Schnitzeljagd von den Ninja-Eichhörnchen der J-TK-2!</p>
-            <p>Drück es fest und das Spiel kann beginnen!</p>
+            <p>Ihr müsst auf jeder Seite den Bestätigen Button drücken um das Bild zur nächsten Aufgabe zu unlocken.</p>
+            <p>Dies ist nur eine Vorsichtsmaßnahme, dass nicht ausversehen Seiten übersprungen werden.</p>
+            <p>Zurück geht es nur über den zurück Knopf des jeweiligem Handys, bin leider nicht zu gekommen noch schnell Cookies einzubauen.</p>
+            <p>Na dann. Wenn ihr bereit seid, dann drückt es fest und das Spiel kann beginnen!</p>
+            <p>P.S. ich habe versucht keine Fehler bei den Antworten rein zu arbeiten. Die schriftlichen Antworten gehen sowohl als Groß auch auch als klein geschriebenen Anfangsbuchstaben.</p>
             <p>
               <Button
                 onClick={() => setStart(!start)}

@@ -11,7 +11,7 @@ export default function Quest_1() {
   const [dis, setDis] = useState(true)
   
   
-  // var cookie = require('cookie')
+  var cookie = require('cookie')
   
   
   function ans() {
@@ -22,17 +22,17 @@ export default function Quest_1() {
     }
   }
 
-  const cook = () => {
-    // var token = cookie.parse('quest2', {
-    //   maxAge: 60*120,
-    //   sameSite: 'strict',
-    //   path: '/'
-    // })
-    var setCookie = cookie.serialize('answers', 'quest2', {
+  function cook() {
+    cookie.parse('quest2', {
       maxAge: 60*120,
       sameSite: 'strict',
       path: '/'
     })
+    // cookie.serialize('answers', 'quest2', {
+    //   maxAge: 60*120,
+    //   sameSite: 'strict',
+    //   path: '/'
+    // })
   }
   
 
