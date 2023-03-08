@@ -9,7 +9,7 @@ export default function Quest_2() {
                     <div className="col-1"></div>
                     <div className="col">
                         <h2>Aufgabe 2</h2>
-                        <p>Nachdem ihr im Hotel "Deutsches Haus" die Nacht verbracht habt schaut ihr euch um.</p>
+                        <p>Nachdem ihr im Hotel <b>Deutsches Haus</b> die Nacht verbracht habt schaut ihr euch um.</p>
 
                         <p>Seht ihr etwas in der Gegend, was genau der Anzahl Doppelfenster entspricht von eurem Hotel?</p>
                         <p>Ihr habt was, dann geht dort durch den Haupteingang.</p>

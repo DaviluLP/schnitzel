@@ -1,20 +1,21 @@
+import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import Button from "react-bootstrap/Button"
-import { useState } from "react"
 import Form from "react-bootstrap/Form"
 import cookie from 'cookie'
 
-export default function start() {
-  const [q2, setQ2] = useState(false)
+export default function Quest_1() {
   const [answer, setAnswer] = useState(null)
+  const [q2, setQ2] = useState(false)
   const [dis, setDis] = useState(true)
-  var cookie = require('cookie')
   
-  const ans = async () => {
-    if (answer === "hotel"){
-      return setDis(false)
-    } else if(answer === "Hotel") {
+  
+  // var cookie = require('cookie')
+  
+  
+  function ans() {
+    if (answer === "hotel" || answer === "Hotel") {
       return setDis(false)
     } else {
       return setDis(true)

@@ -26,7 +26,7 @@ export default function Home() {
             {start !== true ? (
               <Image src='/bilder/Eichhoernchenbw.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
             ) : (
-              <Link href={'./fragen/start'}>
+              <Link href={'./fragen/Quest_1'}>
                 <Image src='/bilder/Eichhoernchen.png' width={240} height={240} alt='Ninja Eichhoernchen'></Image>
               </Link>
 
