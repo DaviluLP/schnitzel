@@ -28,6 +28,7 @@ export default function Quest_3() {
                     <div className="col">
                         <h2>Aufgabe 3</h2>
                         <p>Du bist nun in der Arneken angekommen, findest aber kein passendes Geschäft für dich und beschließt den Lageplan zu studieren.</p>
+                        <p>Dich hat die Anzahl der <b>Fenster</b> fasziniert und beschließt diese Route bis zum <b>orangenen Knotenpunkt</b> zu nehmen.</p>
                         <p>Welches Geschäft hat nur diese Nummer? (kürzel reicht)</p>
                         <Form>
                             <Form.Group>
@@ -38,7 +39,6 @@ export default function Quest_3() {
                                 Antwort
                             </Button>
                         </Form>
-                        <p>Dich hat die Anzahl der <b>Fenster</b> fasziniert und beschließt diese Route bis zum <b>orangenen Knotenpunkt</b> zu nehmen.</p>
                         <p className='mt-3'>
                             <Button
                                 onClick={() => setOpen(!open)}
